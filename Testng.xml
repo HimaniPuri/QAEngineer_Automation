@@ -1,0 +1,7 @@
+<suite name="Hotelogix">
+<test name="Hotelogix">
+<classes>
+		<class name="Hotelogix/com/Hotelogix/MyTestClass"/>
+</classes>
+</test>
+</suite>
