@@ -22,9 +22,26 @@ public class MyTestClass {
 		//GenericMethods
 		HotelogicHomePage  tryforfreeObjj = new HotelogicHomePage(GenericMethods.fn_provideObj().driver);
 		tryforfreeObjj.fn_clikcontryforfree();
-	
+	/*int d = GenericMethods.sum(6, 7);
+	System.out.println(d);
 		
+	GenericMethods.fn_provideObj().*/
 	}
+	
+	@Test(priority=3)
+	public void fn_Register() throws Exception{
+		
+		RegisterPage RegisterObj = new RegisterPage(GenericMethods.fn_provideObj().driver);
+		RegisterObj.SetHotelName("Taj");
+		RegisterObj.SetFullName("Himani Puri");
+		RegisterObj.SetEmail("himani.puri@hotelogix.com");
+		RegisterObj.SelectCountry();
+		RegisterObj.SelectState();
+		//RegisterObj.SetPhone(213213213);
+		RegisterObj.fn_SubmitButton();
+	}
+		
+	
 	
 	
 	

@@ -12,13 +12,14 @@ public class GenericMethods {
 	
 	public WebDriver driver;
 	public static GenericMethods gm;
-	
+
 	
 	
 	public static GenericMethods fn_provideObj()
 	{
 		if(gm==null)
 		{
+			
 			gm=new GenericMethods();
 		}
 		return gm;
@@ -26,6 +27,12 @@ public class GenericMethods {
 		//return gm;
 		
 	}
+	
+	/*public static int sum(int a, int b){
+		int c = a +b;
+		System.err.println(c);
+		return c;*/
+		
 	
 
 	

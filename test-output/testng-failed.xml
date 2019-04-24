@@ -5,7 +5,7 @@
     <classes>
       <class name="Hotelogix.com.Hotelogix.MyTestClass">
         <methods>
-          <include name="fn_TryforFree"/>
+          <include name="fn_Register"/>
         </methods>
       </class> <!-- Hotelogix.com.Hotelogix.MyTestClass -->
     </classes>
